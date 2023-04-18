@@ -29,15 +29,3 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun MoviePlugApp () {
-    Text(text = "Movies!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    MoviePlugTheme {
-        MoviePlugApp()
-    }
-}
